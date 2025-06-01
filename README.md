@@ -1,8 +1,10 @@
-📽️ Clasificación de Reseñas de Cine - Análisis de Sentimiento
+# 📽️ Clasificación de Reseñas de Cine - Análisis de Sentimiento
+
 Repositorio: https://github.com/Ny-dia/clasificacion_resenas_cine
 Notebook Principal: Modelo_de_clasificacion_de_reseñas_de_cine.ipynb
 
-📌 Descripción
+## 📌 Descripción
+
 Este repositorio contiene un modelo de análisis de sentimiento entrenado para clasificar reseñas de cine como positivas (👍) o negativas (👎). El proyecto incluye:
 
 Preprocesamiento de texto (limpieza, tokenización)
@@ -13,7 +15,7 @@ Evaluación de métricas (accuracy, F1-score)
 
 Visualizaciones interactivas
 
-🛠️ Tecnologías
+## 🛠️ Tecnologías
 Python
 
 TensorFlow
@@ -24,14 +26,14 @@ Pandas
 
 NLTK
 
-📊 Dataset
+## 📊 Dataset
 Se utilizó el IMDB Dataset de 50K reseñas con etiquetas balanceadas:
 
 25,000 reseñas positivas
 
 25,000 reseñas negativas
 
-🚀 Resultados
+## 🚀 Resultados
 El modelo alcanzó un 86% de precisión con la siguiente distribución:
 
 Métrica	Negative	Positive
@@ -42,7 +44,7 @@ Recall	0.86	0.87
 
 F1-Score	0.86	0.86
 
-🧠 Arquitectura del Modelo
+## 🧠 Arquitectura del Modelo
 python
 model = Sequential([
     Embedding(5000, 256, input_length=100),
@@ -53,7 +55,7 @@ model = Sequential([
     Dense(1, activation='sigmoid')
 ])
 
-📋 Cómo Usar
+## 📋 Cómo Usar
 Clona el repositorio:
 
 bash
@@ -67,14 +69,14 @@ Ejecuta el notebook:
 bash
 jupyter notebook Modelo_de_clasificacion_de_reseñas_de_cine.ipynb
 
-🌟 Mejoras Futuras
+## 🌟 Mejoras Futuras
 Implementar BERT para mayor precisión
 
 Desplegar modelo como API
 
 Añadir análisis por género de película
 
-🤝 Contribuciones
+## 🤝 Contribuciones
 ¡Contribuciones son bienvenidas! Abre un issue o envía un pull request.
 
 Autora-Nydia Mejía Zavala
